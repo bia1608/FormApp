@@ -35,3 +35,9 @@ This project is a full-stack web application that allows students to submit a fo
 
 ![image](https://github.com/user-attachments/assets/f1a860f9-93ca-414e-ba04-0bad72b0177c)
 
+## Compiling instructions
+## Clone project
+
+```bash
+git clone <link-repo-github>
+cd <nume-proiect>
