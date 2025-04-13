@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .formTemplate {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 5px;
+            margin: 0 auto;
+            width: 80%;
+            font-size: 20px;
+        }
+
+        .student-info div {
+            margin-bottom: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="formTemplate">
+        <h1>Fi&#351a Studentului</h1>
+        <div class="student-info">
+            <div>
+                <span class="label">Nume:</span> 
+                {{Nume}}
+            </div>
+            <br/>
+            <div>
+                <span class="label">Prenume:</span> 
+                {{Prenume}}
+            </div>
+            <br/>
+            <div>
+                <span class="label">Facultate:</span> 
+                {{Facultate}}
+            </div>
+            <br/>
+            <div>
+                <span class="label">Motivare:</span>
+                {{Motivare}}
+            </div>
+            <br/>
+            <div>
+                <span class="label">Data trimitere:</span>
+                {{Data}}
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <div align="right">
+                <span >Semnatura:</span>
+                ..........................................
+            </div>
+        </div>
+    </div>
+</body>
+</html>
