@@ -36,8 +36,19 @@ This project is a full-stack web application that allows students to submit a fo
 ![image](https://github.com/user-attachments/assets/f1a860f9-93ca-414e-ba04-0bad72b0177c)
 
 ## Compiling instructions
-## Clone project
+## 1. Clone project
 
 ```bash
-git clone <link-repo-github>
-cd <nume-proiect>
+git clone -o aspnet-starter-kit -b master --single-branch \ https://github.com/kriasoft/aspnet-starter-kit.git MyApp
+cd MyApp
+```
+## 2. Install project dependencies
+```bash
+npm install
+```
+The app should be available at  http://localhost:808/
+
+## 3. Launch app
+```bash
+npm start
+```
